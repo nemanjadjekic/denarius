@@ -13,7 +13,7 @@ private:
     std::vector<Transaction> m_transactions;
 
 protected:
-    void m_add_transaction(const Transaction &);
+    void m_add_transaction(const Transaction &transaction);
     virtual void m_update_monthly() = 0;
 
 public:

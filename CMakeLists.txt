@@ -10,4 +10,7 @@ add_executable(denarius main.cpp
         model/category.cpp
         model/types.h
         model/transaction.cpp
+        model/account.cpp
+        model/checking_account.cpp
+        model/checking_account.h
 )

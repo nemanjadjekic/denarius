@@ -25,9 +25,3 @@ std::shared_ptr<Category> Transaction::get_category() const {
 std::chrono::year_month_day Transaction::get_date() const {
     return m_date;
 }
-
-
-
-
-// [[nodiscard]] std::shared_ptr<Category> get_category() const;
-// [[nodiscard]] std::chrono::year_month_day get_date() const;
