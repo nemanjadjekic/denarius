@@ -13,4 +13,8 @@ add_executable(denarius main.cpp
         model/account.cpp
         model/checking_account.cpp
         model/checking_account.h
+        model/savings_account.cpp
+        model/savings_account.h
+        model/loan_account.cpp
+        model/loan_account.h
 )

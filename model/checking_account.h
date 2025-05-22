@@ -3,8 +3,8 @@
 
 #include "account.h"
 
-class CheckingAccount : private Account {
-private:
+class CheckingAccount final : public Account {
+protected:
     void m_update_monthly() override;
 
 public:

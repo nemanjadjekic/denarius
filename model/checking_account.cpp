@@ -6,7 +6,7 @@ CheckingAccount::CheckingAccount(std::string name, const double balance)
 CheckingAccount::~CheckingAccount() override = default;
 
 void CheckingAccount::m_update_monthly() override {
-    constexpr double account_fee = 5;
-    withdraw(account_fee);
+    constexpr double maintenance_fee = 5;
+    this->withdraw(maintenance_fee);
 }
 
